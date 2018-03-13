@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1476194063 source:c:\users\michu\desktop\ordena\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/time.h>
+
+1476375870 source:c:\users\michu\desktop\sistemas embarcados\ordena\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/time.h>
+
