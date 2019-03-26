@@ -31,10 +31,10 @@ utils -  algs with quaternion output and set of conversion functions into yaw/pi
 trazas_IMU - apart from some saved movements contain also examples given by Universitat Politecnica de Valencia
 testos contain analysis of data from trazas_IMU and visualisation code, some examples:
 ##### Movement 1
-<img src="imagenes/movement1.jpg" width=1200> </br>
+<img src="imagenes/movement1.jpg" width=1500> </br>
 ##### Movement 2 - turn left!
-<img src="imagenes/movement2.jpg" width=1200> </br>
+<img src="imagenes/movement2.jpg" width=1500> </br>
 ##### Movement 3 - going up!
-<img src="imagenes/movement3.jpg" width=1200> </br>
+<img src="imagenes/movement3.jpg" width=1500> </br>
 Note:
 This works contains parts of ARM's CSIMS and STMicro support libraries and other related works by multiple authors.
