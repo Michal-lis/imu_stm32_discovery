@@ -14,12 +14,15 @@ The board is an ARM STM32F4 equipped with:
 The project was split into 2 parts:
 ### IMU control
 Contained in IMU_c code to work with the STM board, include some simple operations like light a LED oriented towards north or the one that is in the lowest point.
-middlewares and mdk-arm given by Keil uVision and gcc/makefiles. 
-oard - stm32f3discovery board specific files and utilities - serial port init - leds control - button control
-imulib - library of imu related functions - Madgwick filter fusion algs (adapted/optimized) - on-board IMU devices read/initialize in correct aerospace order (optimized) - set of IMU/AHRS helper functions
-CMSIS - ARM CORTEX M3 support definitions
-STM32F30x_StdPeriph_Driver - CPU support package for STM32F3
-STM32_USB-FS-Device_Driver - CPU support package for USB endpoint
+* middlewares and mdk-arm given by Keil uVision and gcc/makefiles. 
+* board - stm32f3discovery board specific files and utilities - serial port init - leds control - button control
+* imulib - library of imu related functions 
+* Madgwick filter fusion algs (adapted/optimized) 
+* on-board IMU devices read/initialize in correct aerospace order (optimized) 
+* set of IMU/AHRS helper functions
+* CMSIS - ARM CORTEX M3 support definitions
+* STM32F30x_StdPeriph_Driver - CPU support package for STM32F3
+* STM32_USB-FS-Device_Driver - CPU support package for USB endpoint
 
 Using the com.m file the data was transferred to a local server via USB and saved as .mat files for further processing and visualisations in Matlab.
 
